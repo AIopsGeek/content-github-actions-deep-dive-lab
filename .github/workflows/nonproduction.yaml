@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BUCKET_NAME: cfst-3457-6b18bea729fa6610558002d73-nonprodbucket-1u9u3r6j9q8hd.s3-website-us-east-1.amazonaws.com
+      BUCKET_NAME: cfst-3457-6b18bea729fa6610558002d73-nonprodbucket-1u9u3r6j9q8hd
     steps:
       - name: Check out code
         uses: actions/checkout@v2
